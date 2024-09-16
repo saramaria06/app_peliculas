@@ -1,0 +1,32 @@
+/* src/components/MovieDetails.module.css */
+.detailsContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .poster {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .info {
+    margin: 5px 0;
+    font-size: 1.1rem;
+  }
+  
+  .overview {
+    text-align: justify;
+    line-height: 1.5;
+  }
+  
